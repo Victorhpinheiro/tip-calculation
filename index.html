@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Tip Calculator app</title>
+</head>
+
+<body>
+    <header>
+        <h1>SPLI<br>TTER</h1>
+    </header>
+
+    <main>
+        <div id="container">
+            <div id='left'>
+
+                <div id='bill'>
+                    <p>Bill</p>
+                    <input id='input-bill' type='text' placeholder="0">
+                    <p id='valid-bill'></p>
+                </div>
+
+                <div id='select'>
+                    <p>Select Tip %</p>
+                    <div id=buttons>
+                        <button id="five" class='btn'>5%</button>
+                        <button id='ten' class='btn'>10%</button>
+                        <button id='fifteen' class='btn'>15%</button>
+                        <button id='twenty-five' class='btn'>25%</button>
+                        <button id='fifty' class='btn'>50%</button>
+                        <input id='input-custom' type='text' placeholder="CUSTOM">
+                    </div>
+                </div>
+
+                <div id='people'>
+                    <p>Number of people</p>
+                    <input id='input-people' type='text' placeholder="0">
+                    <p id='valid-people'></p>
+                </div>
+
+            </div>
+            <div id='tip'>
+                <div class='results'>
+                    <p>Tip amount <br>
+                        / person</p>
+                    <div class='pay' id='amount-pp'>$0.00</div>
+                </div>
+                <div class='results'>
+                    <h2>Total </h2>
+                    / person
+                    <div class='pay' id='amount-pp'>$0.00</div>
+                </div>
+                <button id='Reset'>Reset</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        Created by Victor Honorato Pinheiro
+    </footer>
+</body>
+
+</html>
